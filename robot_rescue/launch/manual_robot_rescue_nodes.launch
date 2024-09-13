@@ -1,0 +1,19 @@
+<launch>
+
+  <node
+    name="set_robot_initial_pose"
+    pkg="robot_rescue"
+    type="set_robot_initial_pose" />
+
+
+  <node
+    name="touch_screen_control"
+    pkg="robot_rescue"
+    type="touch_screen_control" />
+
+  <node
+    name="restart_smach"
+    pkg="robot_rescue"
+    type="restart_smach" />
+
+</launch>
